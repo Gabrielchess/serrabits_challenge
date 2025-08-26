@@ -1,0 +1,15 @@
+.c9/
+__pycache__/
+*.pyc
+.venv/
+.env
+.terraform/
+terraform.tfstate*
+crash.log
+*.tfvars*
+data/
+*.csv
+*.parquet
+athena/
+.DS_Store
+*.swp
