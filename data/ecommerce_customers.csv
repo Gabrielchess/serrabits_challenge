@@ -1,0 +1,401 @@
+customer_id,first_name,last_name,email,signup_date,country,state_province,city
+1,Jamie,Souza,jamie.souza1@example.com,2024-01-06,US,WA,Austin
+2,Jamie,Johnson,jamie.johnson2@example.com,2025-01-25,BR,SP,SF
+3,Sam,Costa,sam.costa3@example.com,2024-05-01,US,PR,SF
+4,Morgan,Brown,morgan.brown4@example.com,2022-07-02,CA,WA,Rio
+5,Cameron,Silva,cameron.silva5@example.com,2025-07-09,US,SP,Vancouver
+6,Riley,Miller,riley.miller6@example.com,2024-05-08,CA,NY,NYC
+7,Alex,Costa,alex.costa7@example.com,2023-07-18,CA,ON,SF
+8,Casey,Johnson,casey.johnson8@example.com,2024-11-09,CA,NY,Curitiba
+9,Riley,Lee,riley.lee9@example.com,2023-07-13,BR,WA,NYC
+10,Sam,Brown,sam.brown10@example.com,2023-12-08,US,WA,NYC
+11,Alex,Silva,alex.silva11@example.com,2023-01-06,BR,BC,Austin
+12,Taylor,Santos,taylor.santos12@example.com,2024-05-19,BR,ON,NYC
+13,Cameron,Miller,cameron.miller13@example.com,2022-07-25,BR,WA,Austin
+14,Casey,Oliveira,casey.oliveira14@example.com,2024-01-17,BR,PR,Seattle
+15,Taylor,Souza,taylor.souza15@example.com,2024-04-09,US,BC,Sao Paulo
+16,Riley,Costa,riley.costa16@example.com,2024-05-16,BR,BC,Seattle
+17,Casey,Oliveira,casey.oliveira17@example.com,2022-12-26,US,ON,Austin
+18,Jordan,Johnson,jordan.johnson18@example.com,2022-07-15,CA,SP,Sao Paulo
+19,Taylor,Brown,taylor.brown19@example.com,2024-10-12,BR,RJ,NYC
+20,Sam,Costa,sam.costa20@example.com,2024-09-12,BR,TX,Sao Paulo
+21,Cameron,Costa,cameron.costa21@example.com,2023-05-26,CA,RJ,Curitiba
+22,Riley,Johnson,riley.johnson22@example.com,2025-06-29,BR,NY,Curitiba
+23,Riley,Santos,riley.santos23@example.com,2024-12-06,CA,SP,Austin
+24,Casey,Souza,casey.souza24@example.com,2024-01-30,BR,TX,Curitiba
+25,Jamie,Silva,jamie.silva25@example.com,2022-09-17,BR,WA,Austin
+26,Taylor,Miller,taylor.miller26@example.com,2022-07-14,BR,CA,Vancouver
+27,Casey,Souza,casey.souza27@example.com,2024-12-05,CA,ON,Seattle
+28,Sam,Brown,sam.brown28@example.com,2022-05-18,US,NY,Rio
+29,Jamie,Johnson,jamie.johnson29@example.com,2024-11-07,US,RJ,Curitiba
+30,Avery,Silva,avery.silva30@example.com,2022-08-07,BR,SP,Seattle
+31,Morgan,Brown,morgan.brown31@example.com,2023-10-23,CA,BC,Rio
+32,Morgan,Williams,morgan.williams32@example.com,2024-11-17,US,WA,NYC
+33,Taylor,Souza,taylor.souza33@example.com,2022-06-14,US,WA,SF
+34,Jamie,Souza,jamie.souza34@example.com,2024-04-10,US,CA,Vancouver
+35,Jamie,Johnson,jamie.johnson35@example.com,2024-03-22,CA,RJ,Seattle
+36,Morgan,Miller,morgan.miller36@example.com,2022-05-10,BR,RJ,Seattle
+37,Casey,Oliveira,casey.oliveira37@example.com,2024-06-28,US,NY,Sao Paulo
+38,Taylor,Oliveira,taylor.oliveira38@example.com,2023-04-03,CA,CA,NYC
+39,Sam,Oliveira,sam.oliveira39@example.com,2023-08-28,US,WA,Seattle
+40,Jordan,Johnson,jordan.johnson40@example.com,2023-01-16,US,SP,Austin
+41,Riley,Williams,riley.williams41@example.com,2024-02-27,US,RJ,Curitiba
+42,Jamie,Souza,jamie.souza42@example.com,2022-07-11,US,NY,Seattle
+43,Avery,Oliveira,avery.oliveira43@example.com,2022-11-01,CA,WA,Sao Paulo
+44,Sam,Miller,sam.miller44@example.com,2023-06-07,US,SP,Toronto
+45,Casey,Silva,casey.silva45@example.com,2023-03-09,BR,PR,Rio
+46,Avery,Brown,avery.brown46@example.com,2023-11-23,US,CA,Curitiba
+47,Sam,Santos,sam.santos47@example.com,2025-03-27,US,RJ,Curitiba
+48,Morgan,Miller,morgan.miller48@example.com,2025-03-28,BR,NY,Austin
+49,Jamie,Lee,jamie.lee49@example.com,2025-03-05,BR,WA,Sao Paulo
+50,Jamie,Lee,jamie.lee50@example.com,2024-03-05,BR,CA,NYC
+51,Alex,Lee,alex.lee51@example.com,2022-05-22,BR,BC,Toronto
+52,Jordan,Santos,jordan.santos52@example.com,2024-03-21,CA,SP,Austin
+53,Riley,Williams,riley.williams53@example.com,2023-10-14,US,CA,Rio
+54,Cameron,Lee,cameron.lee54@example.com,2024-12-30,US,PR,Seattle
+55,Morgan,Silva,morgan.silva55@example.com,2024-10-24,CA,NY,Seattle
+56,Taylor,Silva,taylor.silva56@example.com,2024-09-02,CA,PR,Toronto
+57,Cameron,Johnson,cameron.johnson57@example.com,2025-07-06,BR,PR,Toronto
+58,Jamie,Miller,jamie.miller58@example.com,2024-01-28,US,NY,Curitiba
+59,Avery,Silva,avery.silva59@example.com,2023-12-23,BR,WA,Vancouver
+60,Jordan,Silva,jordan.silva60@example.com,2022-09-21,CA,ON,SF
+61,Jamie,Oliveira,jamie.oliveira61@example.com,2024-01-03,US,CA,Vancouver
+62,Avery,Silva,avery.silva62@example.com,2024-08-26,BR,RJ,Curitiba
+63,Alex,Johnson,alex.johnson63@example.com,2025-07-03,US,NY,Austin
+64,Morgan,Souza,morgan.souza64@example.com,2023-06-27,BR,PR,Austin
+65,Alex,Miller,alex.miller65@example.com,2025-04-28,CA,BC,SF
+66,Taylor,Brown,taylor.brown66@example.com,2024-02-27,BR,NY,Vancouver
+67,Morgan,Oliveira,morgan.oliveira67@example.com,2024-09-09,US,TX,Austin
+68,Alex,Souza,alex.souza68@example.com,2024-07-20,BR,BC,Sao Paulo
+69,Jordan,Silva,jordan.silva69@example.com,2024-08-30,BR,NY,Sao Paulo
+70,Sam,Williams,sam.williams70@example.com,2024-04-23,US,RJ,Vancouver
+71,Riley,Brown,riley.brown71@example.com,2024-04-22,US,WA,Sao Paulo
+72,Taylor,Silva,taylor.silva72@example.com,2025-03-02,CA,BC,Curitiba
+73,Alex,Johnson,alex.johnson73@example.com,2023-09-13,US,NY,Toronto
+74,Avery,Lee,avery.lee74@example.com,2024-01-26,US,NY,Sao Paulo
+75,Taylor,Santos,taylor.santos75@example.com,2023-02-10,BR,PR,NYC
+76,Alex,Lee,alex.lee76@example.com,2024-06-28,CA,CA,Sao Paulo
+77,Sam,Johnson,sam.johnson77@example.com,2022-07-16,BR,WA,Vancouver
+78,Alex,Costa,alex.costa78@example.com,2023-09-15,BR,BC,NYC
+79,Riley,Johnson,riley.johnson79@example.com,2023-10-28,BR,SP,Vancouver
+80,Alex,Silva,alex.silva80@example.com,2022-06-13,US,WA,Sao Paulo
+81,Alex,Miller,alex.miller81@example.com,2022-05-14,CA,SP,Curitiba
+82,Sam,Silva,sam.silva82@example.com,2023-12-13,US,SP,Vancouver
+83,Casey,Williams,casey.williams83@example.com,2023-01-29,BR,WA,Curitiba
+84,Casey,Miller,casey.miller84@example.com,2025-01-30,CA,PR,Vancouver
+85,Jamie,Brown,jamie.brown85@example.com,2023-10-26,US,WA,Austin
+86,Sam,Souza,sam.souza86@example.com,2024-03-08,CA,NY,Rio
+87,Alex,Lee,alex.lee87@example.com,2024-06-19,BR,SP,Rio
+88,Alex,Brown,alex.brown88@example.com,2024-09-23,BR,CA,NYC
+89,Alex,Brown,alex.brown89@example.com,2024-07-27,BR,PR,Rio
+90,Sam,Johnson,sam.johnson90@example.com,2024-02-28,US,RJ,Austin
+91,Casey,Johnson,casey.johnson91@example.com,2022-06-04,BR,BC,Rio
+92,Cameron,Johnson,cameron.johnson92@example.com,2023-03-02,BR,RJ,Austin
+93,Casey,Williams,casey.williams93@example.com,2024-02-08,US,ON,Curitiba
+94,Casey,Brown,casey.brown94@example.com,2024-01-07,CA,NY,Toronto
+95,Jordan,Silva,jordan.silva95@example.com,2023-09-04,CA,PR,NYC
+96,Avery,Miller,avery.miller96@example.com,2024-04-05,CA,TX,Seattle
+97,Jamie,Oliveira,jamie.oliveira97@example.com,2023-04-10,CA,PR,Rio
+98,Alex,Souza,alex.souza98@example.com,2024-05-25,CA,SP,SF
+99,Cameron,Oliveira,cameron.oliveira99@example.com,2022-11-19,US,BC,Toronto
+100,Alex,Oliveira,alex.oliveira100@example.com,2022-07-16,BR,PR,Seattle
+101,Casey,Brown,casey.brown101@example.com,2024-01-11,CA,RJ,SF
+102,Alex,Santos,alex.santos102@example.com,2023-04-16,BR,TX,Rio
+103,Avery,Lee,avery.lee103@example.com,2022-07-25,US,SP,SF
+104,Jamie,Oliveira,jamie.oliveira104@example.com,2024-10-18,CA,TX,SF
+105,Riley,Oliveira,riley.oliveira105@example.com,2023-09-21,US,RJ,Vancouver
+106,Taylor,Oliveira,taylor.oliveira106@example.com,2023-12-31,CA,ON,NYC
+107,Casey,Souza,casey.souza107@example.com,2022-07-14,US,BC,Seattle
+108,Jamie,Souza,jamie.souza108@example.com,2025-05-20,US,WA,SF
+109,Cameron,Miller,cameron.miller109@example.com,2024-03-21,US,RJ,NYC
+110,Cameron,Brown,cameron.brown110@example.com,2022-12-13,BR,ON,Vancouver
+111,Avery,Lee,avery.lee111@example.com,2024-11-30,US,ON,NYC
+112,Cameron,Souza,cameron.souza112@example.com,2023-10-23,BR,SP,Sao Paulo
+113,Jordan,Costa,jordan.costa113@example.com,2024-03-12,US,ON,NYC
+114,Cameron,Souza,cameron.souza114@example.com,2023-08-11,BR,SP,Vancouver
+115,Jamie,Johnson,jamie.johnson115@example.com,2023-08-24,US,SP,Rio
+116,Jamie,Oliveira,jamie.oliveira116@example.com,2023-07-12,BR,RJ,Austin
+117,Alex,Miller,alex.miller117@example.com,2022-08-19,BR,ON,Curitiba
+118,Casey,Williams,casey.williams118@example.com,2023-02-11,BR,ON,Vancouver
+119,Jordan,Costa,jordan.costa119@example.com,2023-12-29,CA,WA,Rio
+120,Cameron,Lee,cameron.lee120@example.com,2023-06-07,CA,CA,Rio
+121,Taylor,Miller,taylor.miller121@example.com,2022-10-28,US,BC,Toronto
+122,Taylor,Silva,taylor.silva122@example.com,2024-01-04,BR,CA,Curitiba
+123,Jordan,Costa,jordan.costa123@example.com,2024-03-15,BR,SP,Rio
+124,Morgan,Brown,morgan.brown124@example.com,2022-11-20,BR,RJ,Rio
+125,Sam,Costa,sam.costa125@example.com,2023-11-28,US,SP,Seattle
+126,Riley,Lee,riley.lee126@example.com,2023-06-28,CA,PR,Curitiba
+127,Taylor,Oliveira,taylor.oliveira127@example.com,2022-06-21,CA,BC,Rio
+128,Riley,Silva,riley.silva128@example.com,2024-02-24,US,NY,Seattle
+129,Taylor,Costa,taylor.costa129@example.com,2022-07-21,BR,TX,Seattle
+130,Jordan,Williams,jordan.williams130@example.com,2024-01-03,BR,PR,Toronto
+131,Jamie,Brown,jamie.brown131@example.com,2023-11-24,US,BC,Austin
+132,Riley,Souza,riley.souza132@example.com,2022-07-25,US,ON,SF
+133,Sam,Johnson,sam.johnson133@example.com,2023-12-02,BR,TX,Rio
+134,Jamie,Souza,jamie.souza134@example.com,2023-12-18,CA,RJ,Rio
+135,Taylor,Miller,taylor.miller135@example.com,2025-04-08,CA,RJ,NYC
+136,Jamie,Oliveira,jamie.oliveira136@example.com,2022-10-19,US,CA,Austin
+137,Avery,Lee,avery.lee137@example.com,2023-11-08,US,WA,NYC
+138,Morgan,Oliveira,morgan.oliveira138@example.com,2024-04-16,BR,SP,Rio
+139,Casey,Silva,casey.silva139@example.com,2023-02-25,CA,CA,NYC
+140,Jordan,Brown,jordan.brown140@example.com,2024-01-28,BR,NY,Austin
+141,Jordan,Miller,jordan.miller141@example.com,2022-06-18,US,TX,SF
+142,Alex,Williams,alex.williams142@example.com,2022-12-03,CA,CA,Seattle
+143,Riley,Silva,riley.silva143@example.com,2023-01-05,US,WA,Toronto
+144,Cameron,Brown,cameron.brown144@example.com,2023-03-05,US,PR,Seattle
+145,Avery,Silva,avery.silva145@example.com,2024-10-04,US,CA,Austin
+146,Riley,Lee,riley.lee146@example.com,2022-05-14,CA,RJ,NYC
+147,Casey,Silva,casey.silva147@example.com,2023-04-20,CA,PR,Curitiba
+148,Casey,Williams,casey.williams148@example.com,2025-02-08,BR,CA,Sao Paulo
+149,Taylor,Lee,taylor.lee149@example.com,2024-02-26,US,NY,Seattle
+150,Cameron,Lee,cameron.lee150@example.com,2025-06-10,BR,ON,SF
+151,Avery,Williams,avery.williams151@example.com,2022-08-25,BR,RJ,Toronto
+152,Avery,Lee,avery.lee152@example.com,2023-02-11,BR,RJ,NYC
+153,Casey,Santos,casey.santos153@example.com,2023-04-08,CA,BC,NYC
+154,Avery,Santos,avery.santos154@example.com,2023-04-01,BR,RJ,Toronto
+155,Alex,Johnson,alex.johnson155@example.com,2025-05-08,CA,NY,Vancouver
+156,Riley,Santos,riley.santos156@example.com,2024-11-27,CA,PR,SF
+157,Morgan,Williams,morgan.williams157@example.com,2023-03-29,US,WA,Curitiba
+158,Taylor,Lee,taylor.lee158@example.com,2022-10-06,BR,RJ,SF
+159,Jordan,Silva,jordan.silva159@example.com,2022-06-24,US,ON,Rio
+160,Casey,Costa,casey.costa160@example.com,2025-05-24,BR,WA,Austin
+161,Riley,Johnson,riley.johnson161@example.com,2025-06-24,BR,SP,NYC
+162,Jordan,Costa,jordan.costa162@example.com,2022-12-20,US,TX,Rio
+163,Riley,Johnson,riley.johnson163@example.com,2024-01-10,CA,RJ,Rio
+164,Jordan,Williams,jordan.williams164@example.com,2022-06-20,US,SP,Seattle
+165,Cameron,Johnson,cameron.johnson165@example.com,2024-10-16,US,ON,Sao Paulo
+166,Taylor,Johnson,taylor.johnson166@example.com,2024-01-22,US,ON,Toronto
+167,Cameron,Lee,cameron.lee167@example.com,2022-10-24,US,RJ,Curitiba
+168,Casey,Santos,casey.santos168@example.com,2023-09-11,BR,PR,Sao Paulo
+169,Casey,Santos,casey.santos169@example.com,2024-07-01,BR,WA,Sao Paulo
+170,Jordan,Oliveira,jordan.oliveira170@example.com,2025-04-24,CA,RJ,Sao Paulo
+171,Alex,Miller,alex.miller171@example.com,2022-10-12,US,TX,Curitiba
+172,Cameron,Santos,cameron.santos172@example.com,2024-12-29,CA,NY,Curitiba
+173,Casey,Souza,casey.souza173@example.com,2024-09-30,CA,TX,NYC
+174,Casey,Silva,casey.silva174@example.com,2023-08-29,BR,SP,NYC
+175,Taylor,Johnson,taylor.johnson175@example.com,2023-06-05,CA,RJ,Curitiba
+176,Sam,Lee,sam.lee176@example.com,2025-03-04,US,ON,Seattle
+177,Jamie,Oliveira,jamie.oliveira177@example.com,2025-01-02,BR,NY,Rio
+178,Avery,Silva,avery.silva178@example.com,2025-05-24,US,BC,SF
+179,Riley,Santos,riley.santos179@example.com,2023-06-16,CA,TX,Seattle
+180,Morgan,Oliveira,morgan.oliveira180@example.com,2022-05-20,BR,TX,Austin
+181,Avery,Costa,avery.costa181@example.com,2023-05-31,BR,WA,Rio
+182,Cameron,Miller,cameron.miller182@example.com,2024-04-03,CA,ON,Rio
+183,Riley,Souza,riley.souza183@example.com,2022-12-13,CA,PR,Austin
+184,Jamie,Williams,jamie.williams184@example.com,2023-08-15,BR,ON,Sao Paulo
+185,Riley,Williams,riley.williams185@example.com,2023-11-12,US,SP,Rio
+186,Jamie,Brown,jamie.brown186@example.com,2023-06-02,BR,BC,Toronto
+187,Riley,Souza,riley.souza187@example.com,2023-05-04,CA,CA,SF
+188,Cameron,Williams,cameron.williams188@example.com,2023-12-14,US,BC,Seattle
+189,Jordan,Lee,jordan.lee189@example.com,2024-02-25,BR,TX,NYC
+190,Sam,Silva,sam.silva190@example.com,2023-02-01,US,BC,Austin
+191,Jamie,Silva,jamie.silva191@example.com,2023-09-22,BR,SP,Austin
+192,Jordan,Miller,jordan.miller192@example.com,2022-07-14,CA,PR,Curitiba
+193,Riley,Miller,riley.miller193@example.com,2024-02-12,CA,ON,Vancouver
+194,Jamie,Williams,jamie.williams194@example.com,2025-02-18,US,WA,Sao Paulo
+195,Morgan,Santos,morgan.santos195@example.com,2025-01-19,CA,CA,Toronto
+196,Morgan,Costa,morgan.costa196@example.com,2023-01-03,CA,ON,Sao Paulo
+197,Taylor,Costa,taylor.costa197@example.com,2024-03-31,CA,CA,Curitiba
+198,Taylor,Lee,taylor.lee198@example.com,2024-04-25,BR,NY,Rio
+199,Riley,Oliveira,riley.oliveira199@example.com,2024-11-26,US,CA,SF
+200,Riley,Williams,riley.williams200@example.com,2024-11-27,US,WA,Curitiba
+201,Avery,Oliveira,avery.oliveira201@example.com,2023-01-05,CA,PR,Sao Paulo
+202,Cameron,Miller,cameron.miller202@example.com,2023-03-26,BR,NY,Rio
+203,Cameron,Oliveira,cameron.oliveira203@example.com,2023-12-28,US,BC,Seattle
+204,Casey,Williams,casey.williams204@example.com,2024-03-26,CA,NY,Vancouver
+205,Morgan,Santos,morgan.santos205@example.com,2025-03-20,CA,ON,Seattle
+206,Jamie,Williams,jamie.williams206@example.com,2025-01-16,BR,WA,SF
+207,Sam,Santos,sam.santos207@example.com,2024-03-11,US,WA,NYC
+208,Morgan,Brown,morgan.brown208@example.com,2024-05-06,US,BC,Austin
+209,Cameron,Souza,cameron.souza209@example.com,2024-01-02,US,TX,Curitiba
+210,Riley,Miller,riley.miller210@example.com,2024-12-09,BR,CA,Austin
+211,Sam,Santos,sam.santos211@example.com,2024-03-22,BR,BC,SF
+212,Avery,Silva,avery.silva212@example.com,2025-04-06,US,SP,Curitiba
+213,Jamie,Costa,jamie.costa213@example.com,2022-11-20,CA,BC,Curitiba
+214,Cameron,Costa,cameron.costa214@example.com,2023-01-09,BR,WA,SF
+215,Morgan,Silva,morgan.silva215@example.com,2022-12-27,BR,CA,SF
+216,Casey,Oliveira,casey.oliveira216@example.com,2023-03-02,BR,NY,Rio
+217,Casey,Costa,casey.costa217@example.com,2025-02-07,CA,TX,NYC
+218,Avery,Silva,avery.silva218@example.com,2022-06-25,BR,BC,Sao Paulo
+219,Cameron,Johnson,cameron.johnson219@example.com,2023-11-27,CA,PR,Sao Paulo
+220,Jamie,Costa,jamie.costa220@example.com,2022-06-19,BR,WA,Sao Paulo
+221,Casey,Brown,casey.brown221@example.com,2023-03-28,CA,RJ,Sao Paulo
+222,Alex,Costa,alex.costa222@example.com,2023-10-21,CA,BC,Toronto
+223,Taylor,Miller,taylor.miller223@example.com,2022-11-24,US,NY,NYC
+224,Jamie,Oliveira,jamie.oliveira224@example.com,2025-01-06,BR,BC,Austin
+225,Morgan,Souza,morgan.souza225@example.com,2022-05-29,BR,BC,NYC
+226,Alex,Santos,alex.santos226@example.com,2023-03-09,BR,CA,Toronto
+227,Cameron,Silva,cameron.silva227@example.com,2023-08-02,US,PR,Seattle
+228,Avery,Williams,avery.williams228@example.com,2024-04-19,US,BC,Curitiba
+229,Taylor,Costa,taylor.costa229@example.com,2023-12-30,BR,WA,Sao Paulo
+230,Morgan,Lee,morgan.lee230@example.com,2022-06-08,US,ON,SF
+231,Avery,Silva,avery.silva231@example.com,2023-10-29,CA,BC,SF
+232,Avery,Miller,avery.miller232@example.com,2022-05-20,BR,SP,NYC
+233,Avery,Souza,avery.souza233@example.com,2025-01-16,BR,PR,Seattle
+234,Alex,Oliveira,alex.oliveira234@example.com,2023-01-05,CA,TX,Vancouver
+235,Riley,Santos,riley.santos235@example.com,2022-05-17,BR,NY,SF
+236,Avery,Miller,avery.miller236@example.com,2025-04-12,BR,NY,Toronto
+237,Casey,Oliveira,casey.oliveira237@example.com,2022-11-01,BR,RJ,Sao Paulo
+238,Riley,Brown,riley.brown238@example.com,2022-09-07,US,BC,Sao Paulo
+239,Jamie,Silva,jamie.silva239@example.com,2022-10-30,BR,ON,SF
+240,Jordan,Oliveira,jordan.oliveira240@example.com,2025-04-01,US,WA,Toronto
+241,Jordan,Miller,jordan.miller241@example.com,2024-02-15,CA,BC,NYC
+242,Sam,Williams,sam.williams242@example.com,2023-02-22,US,TX,Sao Paulo
+243,Morgan,Brown,morgan.brown243@example.com,2022-10-02,BR,BC,NYC
+244,Alex,Souza,alex.souza244@example.com,2023-02-10,US,RJ,NYC
+245,Taylor,Lee,taylor.lee245@example.com,2023-02-24,BR,SP,Sao Paulo
+246,Riley,Costa,riley.costa246@example.com,2023-04-15,US,BC,Austin
+247,Cameron,Williams,cameron.williams247@example.com,2023-07-12,US,SP,NYC
+248,Jordan,Oliveira,jordan.oliveira248@example.com,2023-04-24,BR,NY,Sao Paulo
+249,Riley,Santos,riley.santos249@example.com,2024-04-25,CA,TX,NYC
+250,Morgan,Costa,morgan.costa250@example.com,2022-08-01,BR,WA,Vancouver
+251,Taylor,Miller,taylor.miller251@example.com,2024-03-26,US,TX,Toronto
+252,Jordan,Miller,jordan.miller252@example.com,2024-09-12,BR,NY,Austin
+253,Casey,Williams,casey.williams253@example.com,2022-05-25,BR,RJ,Vancouver
+254,Taylor,Miller,taylor.miller254@example.com,2023-02-03,US,RJ,Rio
+255,Riley,Silva,riley.silva255@example.com,2025-03-29,CA,PR,NYC
+256,Riley,Williams,riley.williams256@example.com,2023-01-09,US,CA,Vancouver
+257,Riley,Costa,riley.costa257@example.com,2025-01-19,BR,PR,Sao Paulo
+258,Casey,Lee,casey.lee258@example.com,2022-06-13,BR,CA,Rio
+259,Cameron,Brown,cameron.brown259@example.com,2023-10-03,BR,RJ,Curitiba
+260,Avery,Souza,avery.souza260@example.com,2023-01-12,US,BC,NYC
+261,Morgan,Miller,morgan.miller261@example.com,2025-05-03,US,RJ,Rio
+262,Morgan,Johnson,morgan.johnson262@example.com,2024-08-31,CA,BC,Toronto
+263,Alex,Oliveira,alex.oliveira263@example.com,2023-08-30,BR,CA,Vancouver
+264,Jamie,Santos,jamie.santos264@example.com,2025-01-10,BR,SP,Toronto
+265,Riley,Lee,riley.lee265@example.com,2024-09-18,CA,NY,Austin
+266,Taylor,Silva,taylor.silva266@example.com,2023-05-12,US,NY,Toronto
+267,Morgan,Oliveira,morgan.oliveira267@example.com,2023-09-19,US,PR,NYC
+268,Alex,Johnson,alex.johnson268@example.com,2023-07-12,US,BC,Toronto
+269,Avery,Brown,avery.brown269@example.com,2023-08-23,CA,WA,Seattle
+270,Avery,Miller,avery.miller270@example.com,2025-02-14,CA,NY,Curitiba
+271,Morgan,Johnson,morgan.johnson271@example.com,2025-05-06,BR,BC,Austin
+272,Cameron,Oliveira,cameron.oliveira272@example.com,2024-09-10,US,TX,Austin
+273,Casey,Souza,casey.souza273@example.com,2023-04-03,CA,WA,Rio
+274,Cameron,Silva,cameron.silva274@example.com,2023-01-15,US,PR,Seattle
+275,Riley,Williams,riley.williams275@example.com,2024-06-20,CA,RJ,Rio
+276,Riley,Oliveira,riley.oliveira276@example.com,2022-09-27,BR,SP,Austin
+277,Jordan,Lee,jordan.lee277@example.com,2024-10-12,CA,CA,Rio
+278,Taylor,Johnson,taylor.johnson278@example.com,2024-12-24,BR,PR,NYC
+279,Riley,Costa,riley.costa279@example.com,2024-08-28,CA,RJ,Curitiba
+280,Avery,Oliveira,avery.oliveira280@example.com,2025-01-16,US,RJ,Vancouver
+281,Sam,Oliveira,sam.oliveira281@example.com,2025-04-04,CA,PR,Vancouver
+282,Jordan,Oliveira,jordan.oliveira282@example.com,2025-02-05,CA,WA,SF
+283,Taylor,Costa,taylor.costa283@example.com,2023-09-05,US,TX,SF
+284,Riley,Williams,riley.williams284@example.com,2024-10-11,BR,RJ,Rio
+285,Cameron,Souza,cameron.souza285@example.com,2025-02-10,US,ON,Seattle
+286,Avery,Johnson,avery.johnson286@example.com,2022-08-07,CA,NY,Toronto
+287,Jordan,Silva,jordan.silva287@example.com,2024-11-15,US,WA,Sao Paulo
+288,Cameron,Williams,cameron.williams288@example.com,2025-03-16,US,RJ,Curitiba
+289,Sam,Johnson,sam.johnson289@example.com,2024-03-14,BR,TX,Toronto
+290,Alex,Souza,alex.souza290@example.com,2023-07-31,US,SP,Austin
+291,Jamie,Johnson,jamie.johnson291@example.com,2023-07-15,US,PR,Curitiba
+292,Morgan,Johnson,morgan.johnson292@example.com,2022-06-14,US,SP,Rio
+293,Sam,Oliveira,sam.oliveira293@example.com,2023-06-19,CA,CA,Vancouver
+294,Jamie,Santos,jamie.santos294@example.com,2024-03-16,BR,NY,Vancouver
+295,Avery,Souza,avery.souza295@example.com,2023-08-01,BR,BC,Austin
+296,Casey,Williams,casey.williams296@example.com,2024-07-14,US,NY,Rio
+297,Sam,Silva,sam.silva297@example.com,2024-06-05,US,WA,SF
+298,Taylor,Silva,taylor.silva298@example.com,2022-09-01,CA,PR,Rio
+299,Riley,Souza,riley.souza299@example.com,2024-06-26,CA,BC,SF
+300,Taylor,Silva,taylor.silva300@example.com,2024-11-10,CA,SP,Sao Paulo
+301,Casey,Oliveira,casey.oliveira301@example.com,2023-08-28,US,RJ,Rio
+302,Taylor,Johnson,taylor.johnson302@example.com,2024-01-23,US,SP,NYC
+303,Alex,Lee,alex.lee303@example.com,2024-07-18,BR,ON,Vancouver
+304,Jamie,Costa,jamie.costa304@example.com,2023-09-20,BR,ON,Toronto
+305,Casey,Lee,casey.lee305@example.com,2023-03-03,US,RJ,Vancouver
+306,Casey,Souza,casey.souza306@example.com,2023-07-31,BR,SP,Toronto
+307,Sam,Costa,sam.costa307@example.com,2023-04-13,CA,PR,Austin
+308,Sam,Miller,sam.miller308@example.com,2023-02-06,US,TX,NYC
+309,Jordan,Santos,jordan.santos309@example.com,2023-07-12,CA,CA,Austin
+310,Casey,Santos,casey.santos310@example.com,2023-06-22,CA,NY,Austin
+311,Morgan,Santos,morgan.santos311@example.com,2023-04-29,CA,ON,Seattle
+312,Jamie,Souza,jamie.souza312@example.com,2024-07-06,CA,PR,Sao Paulo
+313,Morgan,Costa,morgan.costa313@example.com,2024-02-02,CA,RJ,Seattle
+314,Cameron,Silva,cameron.silva314@example.com,2022-10-21,US,NY,Austin
+315,Jamie,Williams,jamie.williams315@example.com,2024-08-03,BR,RJ,NYC
+316,Taylor,Santos,taylor.santos316@example.com,2025-03-12,BR,PR,Toronto
+317,Riley,Miller,riley.miller317@example.com,2024-07-31,CA,PR,Seattle
+318,Jamie,Brown,jamie.brown318@example.com,2024-10-11,US,RJ,SF
+319,Taylor,Johnson,taylor.johnson319@example.com,2023-06-28,CA,PR,Austin
+320,Cameron,Costa,cameron.costa320@example.com,2025-03-10,CA,SP,Rio
+321,Morgan,Oliveira,morgan.oliveira321@example.com,2023-04-06,BR,NY,Austin
+322,Taylor,Costa,taylor.costa322@example.com,2023-01-13,CA,PR,Vancouver
+323,Avery,Johnson,avery.johnson323@example.com,2024-07-15,US,SP,Curitiba
+324,Sam,Costa,sam.costa324@example.com,2022-08-26,US,ON,Austin
+325,Avery,Santos,avery.santos325@example.com,2024-04-17,CA,PR,Toronto
+326,Jamie,Silva,jamie.silva326@example.com,2024-06-15,BR,PR,Toronto
+327,Avery,Silva,avery.silva327@example.com,2022-07-26,US,PR,Austin
+328,Cameron,Lee,cameron.lee328@example.com,2024-09-10,US,BC,SF
+329,Sam,Costa,sam.costa329@example.com,2025-04-20,BR,ON,Seattle
+330,Cameron,Oliveira,cameron.oliveira330@example.com,2025-05-21,CA,PR,Toronto
+331,Riley,Williams,riley.williams331@example.com,2024-03-08,BR,SP,Toronto
+332,Casey,Costa,casey.costa332@example.com,2025-03-22,US,RJ,Sao Paulo
+333,Casey,Williams,casey.williams333@example.com,2024-05-31,CA,TX,Vancouver
+334,Taylor,Santos,taylor.santos334@example.com,2023-04-28,US,BC,Curitiba
+335,Morgan,Costa,morgan.costa335@example.com,2023-10-08,US,RJ,NYC
+336,Riley,Williams,riley.williams336@example.com,2024-03-02,US,NY,SF
+337,Riley,Oliveira,riley.oliveira337@example.com,2023-03-19,US,TX,Vancouver
+338,Cameron,Santos,cameron.santos338@example.com,2024-06-29,US,RJ,Curitiba
+339,Casey,Williams,casey.williams339@example.com,2023-10-30,CA,CA,NYC
+340,Alex,Johnson,alex.johnson340@example.com,2022-12-29,US,WA,Vancouver
+341,Sam,Souza,sam.souza341@example.com,2023-12-24,CA,RJ,Toronto
+342,Morgan,Souza,morgan.souza342@example.com,2024-12-14,CA,TX,Toronto
+343,Taylor,Oliveira,taylor.oliveira343@example.com,2023-07-04,US,SP,SF
+344,Cameron,Johnson,cameron.johnson344@example.com,2024-06-19,CA,PR,Toronto
+345,Jamie,Oliveira,jamie.oliveira345@example.com,2022-09-24,CA,PR,Toronto
+346,Cameron,Lee,cameron.lee346@example.com,2024-11-21,US,NY,Sao Paulo
+347,Taylor,Santos,taylor.santos347@example.com,2022-06-06,CA,TX,Seattle
+348,Cameron,Johnson,cameron.johnson348@example.com,2023-04-22,BR,CA,SF
+349,Sam,Miller,sam.miller349@example.com,2023-09-09,CA,PR,Rio
+350,Avery,Lee,avery.lee350@example.com,2022-09-01,US,BC,Vancouver
+351,Avery,Oliveira,avery.oliveira351@example.com,2023-11-18,BR,BC,Curitiba
+352,Morgan,Johnson,morgan.johnson352@example.com,2022-10-23,BR,ON,Rio
+353,Sam,Santos,sam.santos353@example.com,2023-09-13,BR,NY,Sao Paulo
+354,Cameron,Silva,cameron.silva354@example.com,2025-05-29,BR,RJ,Toronto
+355,Cameron,Lee,cameron.lee355@example.com,2024-04-12,BR,CA,Rio
+356,Avery,Johnson,avery.johnson356@example.com,2023-06-05,US,WA,SF
+357,Cameron,Costa,cameron.costa357@example.com,2024-06-27,US,RJ,Vancouver
+358,Alex,Miller,alex.miller358@example.com,2023-03-30,BR,WA,Sao Paulo
+359,Morgan,Lee,morgan.lee359@example.com,2022-11-30,BR,CA,Austin
+360,Morgan,Brown,morgan.brown360@example.com,2022-05-31,CA,RJ,Curitiba
+361,Alex,Santos,alex.santos361@example.com,2024-08-02,CA,PR,Vancouver
+362,Morgan,Santos,morgan.santos362@example.com,2024-01-28,BR,RJ,Seattle
+363,Jordan,Silva,jordan.silva363@example.com,2022-06-06,CA,WA,Toronto
+364,Riley,Brown,riley.brown364@example.com,2022-10-25,CA,RJ,Vancouver
+365,Morgan,Silva,morgan.silva365@example.com,2023-12-11,US,PR,Sao Paulo
+366,Alex,Santos,alex.santos366@example.com,2024-09-26,CA,CA,Toronto
+367,Jamie,Santos,jamie.santos367@example.com,2023-01-29,BR,ON,Rio
+368,Jordan,Brown,jordan.brown368@example.com,2022-07-15,CA,PR,Toronto
+369,Avery,Costa,avery.costa369@example.com,2024-03-19,US,CA,Curitiba
+370,Jordan,Brown,jordan.brown370@example.com,2025-04-06,US,SP,Vancouver
+371,Casey,Costa,casey.costa371@example.com,2024-10-14,US,PR,Austin
+372,Alex,Williams,alex.williams372@example.com,2022-11-18,BR,WA,Toronto
+373,Taylor,Silva,taylor.silva373@example.com,2025-03-23,US,WA,Curitiba
+374,Sam,Miller,sam.miller374@example.com,2023-03-20,US,CA,Sao Paulo
+375,Casey,Miller,casey.miller375@example.com,2023-12-08,US,CA,Toronto
+376,Cameron,Lee,cameron.lee376@example.com,2024-12-15,CA,ON,Rio
+377,Morgan,Johnson,morgan.johnson377@example.com,2022-10-15,US,PR,Rio
+378,Riley,Brown,riley.brown378@example.com,2024-12-04,CA,TX,Rio
+379,Riley,Miller,riley.miller379@example.com,2025-06-24,BR,BC,Toronto
+380,Cameron,Brown,cameron.brown380@example.com,2024-07-28,BR,SP,Sao Paulo
+381,Morgan,Santos,morgan.santos381@example.com,2025-01-26,CA,NY,Austin
+382,Avery,Williams,avery.williams382@example.com,2023-09-29,US,CA,Toronto
+383,Alex,Brown,alex.brown383@example.com,2023-01-20,CA,BC,Toronto
+384,Cameron,Lee,cameron.lee384@example.com,2025-06-29,CA,BC,Seattle
+385,Sam,Costa,sam.costa385@example.com,2022-12-12,CA,TX,Sao Paulo
+386,Morgan,Silva,morgan.silva386@example.com,2024-11-24,BR,ON,Vancouver
+387,Cameron,Brown,cameron.brown387@example.com,2024-04-30,US,RJ,Austin
+388,Casey,Lee,casey.lee388@example.com,2023-06-18,CA,PR,Rio
+389,Morgan,Brown,morgan.brown389@example.com,2024-03-03,BR,NY,Curitiba
+390,Casey,Johnson,casey.johnson390@example.com,2023-07-13,US,NY,SF
+391,Morgan,Johnson,morgan.johnson391@example.com,2024-06-03,BR,PR,Austin
+392,Avery,Santos,avery.santos392@example.com,2022-08-22,CA,NY,Seattle
+393,Cameron,Williams,cameron.williams393@example.com,2025-01-17,BR,RJ,SF
+394,Casey,Miller,casey.miller394@example.com,2022-09-05,CA,RJ,SF
+395,Morgan,Williams,morgan.williams395@example.com,2023-10-30,BR,CA,Sao Paulo
+396,Riley,Souza,riley.souza396@example.com,2024-05-02,BR,NY,SF
+397,Alex,Santos,alex.santos397@example.com,2025-03-14,BR,CA,NYC
+398,Casey,Souza,casey.souza398@example.com,2023-12-13,CA,TX,Austin
+399,Alex,Santos,alex.santos399@example.com,2023-05-31,CA,SP,Sao Paulo
+400,Jamie,Johnson,jamie.johnson400@example.com,2024-10-23,BR,BC,NYC

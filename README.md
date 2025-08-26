@@ -1,14 +1,8 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# E-commerce Data Lake with Terraform + CI/CD
 
-
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
+This project provisions an AWS-based data lake using Terraform and automates code validation with GitHub Actions.  
+It includes:
+- Infrastructure as Code (Terraform)
+- Python ETL scripts
+- Automated CI for Terraform and Python
+- CD to apply infrastructure changes on `main` branch
