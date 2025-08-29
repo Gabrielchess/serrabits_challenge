@@ -71,12 +71,12 @@ resource "aws_s3_bucket_public_access_block" "lake" {
 # Medallion prefixes + Athena results
 locals {
   base_prefixes = [
-    "bronze/","bronze/ecommerce/","bronze/ecommerce/customers/","bronze/ecommerce/products/",
-    "bronze/ecommerce/orders/","bronze/ecommerce/order_items/",
-    "silver/","silver/ecommerce/","silver/ecommerce/customers/","silver/ecommerce/products/",
-    "silver/ecommerce/orders/","silver/ecommerce/order_items/",
-    "gold/","gold/ecommerce/","gold/ecommerce/dim_customer/","gold/ecommerce/dim_product/",
-    "gold/ecommerce/fact_orders/","gold/ecommerce/fact_order_items/",
+    "bronze/", "bronze/ecommerce/", "bronze/ecommerce/customers/", "bronze/ecommerce/products/",
+    "bronze/ecommerce/orders/", "bronze/ecommerce/order_items/",
+    "silver/", "silver/ecommerce/", "silver/ecommerce/customers/", "silver/ecommerce/products/",
+    "silver/ecommerce/orders/", "silver/ecommerce/order_items/",
+    "gold/", "gold/ecommerce/", "gold/ecommerce/dim_customer/", "gold/ecommerce/dim_product/",
+    "gold/ecommerce/fact_orders/", "gold/ecommerce/fact_order_items/",
     "athena/"
   ]
 }
@@ -116,13 +116,13 @@ locals {
 resource "aws_glue_crawler" "bronze_crawlers" {
   for_each      = local.crawler_targets
   name          = "${var.project}-bronze-${each.key}"
-  role          = data.aws_iam_role.glue_role.arn     # <— use LabRole
+  role          = data.aws_iam_role.glue_role.arn # <— use LabRole
   database_name = aws_glue_catalog_database.db.name
-  table_prefix  = "bronze_"                           # remove if you don't want a prefix
+  table_prefix  = "bronze_" # remove if you don't want a prefix
 
   s3_target { path = each.value }
 
-  recrawl_policy        { recrawl_behavior = "CRAWL_EVERYTHING" }
+  recrawl_policy { recrawl_behavior = "CRAWL_EVERYTHING" }
   schema_change_policy {
     delete_behavior = "LOG"
     update_behavior = "UPDATE_IN_DATABASE"
@@ -150,8 +150,8 @@ resource "aws_athena_workgroup" "wg" {
 ########################################
 # Outputs
 ########################################
-output "bucket_name"      { value = aws_s3_bucket.lake.bucket }
-output "glue_database"    { value = aws_glue_catalog_database.db.name }
-output "glue_crawlers"    { value = [for c in aws_glue_crawler.bronze_crawlers : c.name] }
+output "bucket_name" { value = aws_s3_bucket.lake.bucket }
+output "glue_database" { value = aws_glue_catalog_database.db.name }
+output "glue_crawlers" { value = [for c in aws_glue_crawler.bronze_crawlers : c.name] }
 output "athena_workgroup" { value = aws_athena_workgroup.wg.name }
-output "glue_role_used"   { value = data.aws_iam_role.glue_role.arn }
+output "glue_role_used" { value = data.aws_iam_role.glue_role.arn }
