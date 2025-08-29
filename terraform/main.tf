@@ -122,6 +122,41 @@ resource "aws_s3_bucket_logging" "lake" {
   target_prefix = "lake/"
 }
 
+# Customer-managed KMS key for S3 encryption
+resource "aws_kms_key" "datalake" {
+  description         = "KMS key for S3 Data Lake encryption"
+  enable_key_rotation = true
+  tags = { Project = var.project, Layer = "datalake" }
+}
+
+# Default encryption for MAIN bucket
+resource "aws_s3_bucket_server_side_encryption_configuration" "lake" {
+  bucket = aws_s3_bucket.lake.id
+  rule {
+    apply_server_side_encryption_by_default {
+      sse_algorithm     = "aws:kms"
+      kms_master_key_id = aws_kms_key.datalake.arn
+    }
+  }
+}
+
+# Versioning for LOGS bucket (tfsec flagged this)
+resource "aws_s3_bucket_versioning" "lake_logs" {
+  bucket = aws_s3_bucket.lake_logs.id
+  versioning_configuration { status = "Enabled" }
+}
+
+# Default encryption for LOGS bucket too (best practice & clears encryption finding)
+resource "aws_s3_bucket_server_side_encryption_configuration" "lake_logs" {
+  bucket = aws_s3_bucket.lake_logs.id
+  rule {
+    apply_server_side_encryption_by_default {
+      sse_algorithm     = "aws:kms"
+      kms_master_key_id = aws_kms_key.datalake.arn
+    }
+  }
+}
+
 
 ########################################
 # IAM (USE EXISTING ROLE)
@@ -190,5 +225,6 @@ output "glue_database" { value = aws_glue_catalog_database.db.name }
 output "glue_crawlers" { value = [for c in aws_glue_crawler.bronze_crawlers : c.name] }
 output "athena_workgroup" { value = aws_athena_workgroup.wg.name }
 output "glue_role_used" { value = data.aws_iam_role.glue_role.arn }
+
 
 
