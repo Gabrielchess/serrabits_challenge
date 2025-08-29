@@ -57,7 +57,7 @@ resource "aws_s3_bucket" "lake" {
 
 resource "aws_s3_bucket_versioning" "lake" {
   bucket = aws_s3_bucket.lake.id
-  versioning_configuration { status = "Disabled" }
+  versioning_configuration { status = "Enabled" }
 }
 
 resource "aws_s3_bucket_public_access_block" "lake" {
@@ -155,3 +155,4 @@ output "glue_database" { value = aws_glue_catalog_database.db.name }
 output "glue_crawlers" { value = [for c in aws_glue_crawler.bronze_crawlers : c.name] }
 output "athena_workgroup" { value = aws_athena_workgroup.wg.name }
 output "glue_role_used" { value = data.aws_iam_role.glue_role.arn }
+
