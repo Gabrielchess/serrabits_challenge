@@ -88,6 +88,41 @@ resource "aws_s3_object" "folders" {
   content  = ""
 }
 
+# --- Access logging target bucket ---
+resource "aws_s3_bucket" "lake_logs" {
+  bucket = "${var.bucket_name}-logs"
+  tags   = { Project = var.project, Layer = "logs" }
+}
+
+resource "aws_s3_bucket_public_access_block" "lake_logs" {
+  bucket                  = aws_s3_bucket.lake_logs.id
+  block_public_acls       = true
+  block_public_policy     = true
+  ignore_public_acls      = true
+  restrict_public_buckets = true
+}
+
+# S3 requires ownership controls before setting ACLs
+resource "aws_s3_bucket_ownership_controls" "lake_logs" {
+  bucket = aws_s3_bucket.lake_logs.id
+  rule { object_ownership = "BucketOwnerPreferred" }
+}
+
+# Allow S3 log delivery to write into the logs bucket
+resource "aws_s3_bucket_acl" "lake_logs" {
+  bucket     = aws_s3_bucket.lake_logs.id
+  acl        = "log-delivery-write"
+  depends_on = [aws_s3_bucket_ownership_controls.lake_logs]
+}
+
+# Enable server access logging on the main bucket
+resource "aws_s3_bucket_logging" "lake" {
+  bucket        = aws_s3_bucket.lake.id
+  target_bucket = aws_s3_bucket.lake_logs.id
+  target_prefix = "lake/"
+}
+
+
 ########################################
 # IAM (USE EXISTING ROLE)
 ########################################
@@ -155,4 +190,5 @@ output "glue_database" { value = aws_glue_catalog_database.db.name }
 output "glue_crawlers" { value = [for c in aws_glue_crawler.bronze_crawlers : c.name] }
 output "athena_workgroup" { value = aws_athena_workgroup.wg.name }
 output "glue_role_used" { value = data.aws_iam_role.glue_role.arn }
+
 
